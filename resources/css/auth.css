@@ -1,0 +1,160 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0px;
+}
+
+div.header {
+	padding-top: 65px;
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(243.5deg, #FF6109 6.17%,
+		rgba(178, 112, 172, 0.91) 21.08%,
+		rgba(145, 44, 134, 0.74) 49.66%,
+		rgba(194, 142, 80, 0.94) 58.95%, #E85AEB 65.36%,
+		rgba(129, 69, 225, 0.79) 78.57%, #FD8B06 100.87%, #C88B43 100.87%);
+}
+
+ul.ul1 {
+	list-style-type: none;
+	height: 80px;
+	margin: 0px;
+	float: right;
+}
+
+ul.ul1 li {
+	float: left;
+	margin-right: 50px;
+	padding-top: 19px;
+}
+
+a {
+	text-decoration: none;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+}
+
+ul.ul1 a {
+	font-size: 35px;
+	color: #FFF4F4;
+}
+
+@media (min-width: 768px) and (max-width: 2000px) {
+
+	a.a2:visited {
+		color: lightblue;
+	}
+
+	a.a2 {
+		font-size: 23px;
+		font-weight: 400;
+	}
+
+	form {
+		width: 500px;
+		text-align: center;
+		margin: auto;
+		margin-top: 150px;
+	}
+
+	input {
+		font-family: 'Montserrat';
+	}
+
+	input.input1 {
+		width: 500px;
+		height: 60px;
+		background: #FFFFFF;
+		border: 3px solid #8B8AB7;
+		border-radius: 15px;
+		margin-bottom: 15px;
+		font-weight: 500;
+		font-size: 18px;
+		color: #898383;
+		padding: 15px;
+	}
+
+	input.input2 {
+		border: none;
+		width: 400px;
+		height: 50px;
+		background: #2C59FA;
+		border-radius: 15px;
+		font-weight: 500;
+		font-size: 25px;
+		color: white;
+		padding: 10px;
+		text-align: center;
+	}
+}
+
+@media (min-width: 360px) and (max-width: 767px) {
+
+	a.a2:visited {
+		color: lightblue;
+	}
+
+	a.a2 {
+		font-size: 18px;
+		font-weight: 400;
+	}
+
+	ul.ul1 {
+		list-style-type: none;
+		height: 80px;
+		margin: 0px;
+		float: center;
+	}
+
+	ul.ul1 li {
+		float: left;
+		margin-right: 25px;
+	}
+
+	ul.ul1 a {
+		font-size: 20px;
+		color: #FFF4F4;
+	}
+
+	form {
+		width: 80%;
+		text-align: center;
+		margin: auto;
+		margin-top: 150px;
+	}
+
+	input {
+		font-family: 'Montserrat';
+	}
+
+	input.input1 {
+		width: 100%;
+		max-width: 400px;
+		height: 50px;
+		background: #FFFFFF;
+		border: 3px solid #8B8AB7;
+		border-radius: 15px;
+		margin-bottom: 15px;
+		font-weight: 500;
+		font-size: 18px;
+		color: #898383;
+		padding: 15px;
+	}
+
+	input.input2 {
+		border: none;
+		width: 60%;
+		max-width: 200px;
+		height: 35px;
+		background: #2C59FA;
+		border-radius: 15px;
+		font-weight: 500;
+		font-size: 18px;
+		color: white;
+		padding: 5px;
+		text-align: center;
+	}
+}
